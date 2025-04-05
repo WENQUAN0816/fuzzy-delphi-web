@@ -44,7 +44,7 @@ def analyze(data):
     return pd.DataFrame(out)
 
 st.set_page_config("模糊 Delphi 分析工具", "🧠")
-st.title("🧠 模糊 Delphi 分析工具 (网页版)")
+st.title("小W的模糊 Delphi 分析工具 (USM混子版)")
 txt = st.text_area("📋 粘贴评分数据（第一列为指标名，其余为专家1-5评分，用空格或TAB分隔）")
 if st.button("✅ 计算"):
     try:
